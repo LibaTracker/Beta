@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="LibaTrackerDriver.vcxproj" Id="739b6ea5-e8c4-4d61-b887-c2e73fac05cf" />
+</Solution>

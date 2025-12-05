@@ -1,0 +1,21 @@
+{
+  "_comment": "Configuração centralizada de rede para VR Tracker",
+  
+  "udp_port": 5005,
+  "description_port": "Porta UDP onde o tracker envia dados",
+  
+  "pc_ip": "auto",
+  "description_pc_ip": "IP do PC (auto = detectar automaticamente)",
+  
+  "tracker_ip": "auto",
+  "description_tracker_ip": "IP do tracker (auto = buscar na rede)",
+  
+  "timeout_scan_seconds": 60,
+  "description_timeout": "Tempo máximo para buscar o tracker",
+  
+  "max_speed": 6.0,
+  "description_max_speed": "Velocidade máxima esperada em m/s",
+  
+  "listen_address": "0.0.0.0",
+  "description_listen": "Endereço para escutar (0.0.0.0 = todas interfaces)"
+}

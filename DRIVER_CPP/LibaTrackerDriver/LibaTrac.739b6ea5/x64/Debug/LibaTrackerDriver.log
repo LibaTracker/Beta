@@ -1,0 +1,628 @@
+﻿Compilação de 05/12/2025 14:04:28 iniciada.
+Ambiente no início da compilação:
+MSBuildLoadMicrosoftTargetsReadOnly = true
+
+O detalhamento do log está definido como: Diagnostic.14:04:28.062     1>Projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" no nó 2 (Rebuild destino(s)).
+14:04:28.062     1>Destino "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "SetTelemetryEnvironmentVariables" depende dele):
+14:04:28.063     1>Tarefa "Message" (TaskId:2)
+                   Tarefa em execução pronta "Message". (TaskId:2)
+                   Tarefa "Message" (TaskId:3)
+                   Tarefa em execução pronta "Message". (TaskId:3)
+14:04:28.063     1>Destino de compilação pronto"_CheckForInvalidConfigurationAndPlatform" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:2)
+14:04:28.063     1>Destino "SetTelemetryEnvironmentVariables: (TargetId:3)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.DesignTime.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Rebuild" depende dele):
+                   Tarefa "SetEnv" (TaskId:4)
+                   Tarefa em execução pronta "SetEnv". (TaskId:4)
+                   Tarefa "SetEnv" (TaskId:5)
+                   Tarefa em execução pronta "SetEnv". (TaskId:5)
+                   Tarefa "SetEnv" (TaskId:6)
+                   Tarefa em execução pronta "SetEnv". (TaskId:6)
+                   Tarefa "SetEnv" (TaskId:7)
+                   Tarefa em execução pronta "SetEnv". (TaskId:7)
+                   Tarefa "SetEnv" (TaskId:8)
+                   Tarefa em execução pronta "SetEnv". (TaskId:8)
+14:04:28.063     1>Destino de compilação pronto"SetTelemetryEnvironmentVariables" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:3)
+14:04:28.063     1>Destino "_PrepareForRebuild: (TargetId:4)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Rebuild" depende dele):
+14:04:28.063     1>Destino de compilação pronto"_PrepareForRebuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:4)
+14:04:28.063     1>Destino "BeforeRebuild: (TargetId:5)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Rebuild" depende dele):
+14:04:28.063     1>Destino de compilação pronto"BeforeRebuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:5)
+14:04:28.063     1>Destino "_PrepareForClean: (TargetId:6)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+14:04:28.063     1>Destino de compilação pronto"_PrepareForClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:6)
+14:04:28.063     1>Destino "BeforeClean: (TargetId:7)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+14:04:28.063     1>Destino de compilação pronto"BeforeClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:7)
+14:04:28.063     1>Destino "CoreClean: (TargetId:8)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+                   Tarefa "Delete" (TaskId:9)
+                   Tarefa em execução pronta "Delete". (TaskId:9)
+                   Tarefa "ReadLinesFromFile" (TaskId:10)
+                   Tarefa em execução pronta "ReadLinesFromFile". (TaskId:10)
+                   Tarefa "FindUnderPath" (TaskId:11)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:11)
+                   Tarefa "FindUnderPath" (TaskId:12)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:12)
+                   Tarefa "Delete" (TaskId:13)
+                   Tarefa em execução pronta "Delete". (TaskId:13)
+                   Tarefa "RemoveDuplicates" (TaskId:14)
+                   Tarefa em execução pronta "RemoveDuplicates". (TaskId:14)
+                   Tarefa "MakeDir" (TaskId:15)
+                   Tarefa em execução pronta "MakeDir". (TaskId:15)
+                   Tarefa "WriteLinesToFile" (TaskId:16)
+                   Tarefa em execução pronta "WriteLinesToFile". (TaskId:16)
+14:04:28.064     1>Destino de compilação pronto"CoreClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:8)
+14:04:28.064     1>Destino "IgnoreJavaScriptOutputAssembly: (TargetId:9)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "AssignProjectConfiguration" depende dele):
+14:04:28.064     1>Destino de compilação pronto"IgnoreJavaScriptOutputAssembly" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:9)
+14:04:28.064     1>Destino "AssignProjectConfiguration: (TargetId:10)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareProjectReferences" depende dele):
+                   Tarefa "AssignProjectConfiguration" (TaskId:17)
+                   Tarefa em execução pronta "AssignProjectConfiguration". (TaskId:17)
+14:04:28.066     1>Destino de compilação pronto"AssignProjectConfiguration" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:10)
+14:04:28.066     1>Destino "_SplitProjectReferencesByFileExistence: (TargetId:11)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareProjectReferences" depende dele):
+14:04:28.066     1>Destino de compilação pronto"_SplitProjectReferencesByFileExistence" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:11)
+14:04:28.066     1>Destino "_AddOutputPathToGlobalPropertiesToRemove: (TargetId:12)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_GetProjectReferenceTargetFrameworkProperties" depende dele):
+14:04:28.066     1>Destino de compilação pronto"_AddOutputPathToGlobalPropertiesToRemove" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:12)
+14:04:28.066     1>Destino "_GetProjectReferenceTargetFrameworkProperties: (TargetId:13)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareProjectReferences" depende dele):
+                   Tarefa "MSBuild" (TaskId:18)
+                   Tarefa em execução pronta "MSBuild". (TaskId:18)
+                   Tarefa "SetRidAgnosticValueForProjects" (TaskId:19)
+                   Tarefa em execução pronta "SetRidAgnosticValueForProjects". (TaskId:19)
+14:04:28.067     1>Destino de compilação pronto"_GetProjectReferenceTargetFrameworkProperties" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:13)
+14:04:28.067     1>Destino "PrepareProjectReferences: (TargetId:14)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CleanReferencedProjects" depende dele):
+14:04:28.067     1>Destino de compilação pronto"PrepareProjectReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:14)
+14:04:28.067     1>Destino "CleanReferencedProjects: (TargetId:15)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+14:04:28.067     1>Destino de compilação pronto"CleanReferencedProjects" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:15)
+14:04:28.067     1>Destino "CleanPublishFolder: (TargetId:16)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+14:04:28.067     1>Destino de compilação pronto"CleanPublishFolder" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:16)
+14:04:28.067     1>Destino "AfterClean: (TargetId:17)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+14:04:28.067     1>Destino de compilação pronto"AfterClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:17)
+14:04:28.067     1>Destino "BeforeCppClean: (TargetId:18)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppClean.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CppClean" depende dele):
+14:04:28.067     1>Destino de compilação pronto"BeforeCppClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:18)
+14:04:28.067     1>Destino "CoreCppClean: (TargetId:19)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppClean.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CppClean" depende dele):
+                   Tarefa "MakeDir" (TaskId:20)
+                   Tarefa em execução pronta "MakeDir". (TaskId:20)
+                   Tarefa "CppClean" (TaskId:21)
+                   Tarefa em execução pronta "CppClean". (TaskId:21)
+                   Tarefa "WriteLinesToFile" (TaskId:22)
+                   Tarefa em execução pronta "WriteLinesToFile". (TaskId:22)
+14:04:28.072     1>Destino de compilação pronto"CoreCppClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:19)
+14:04:28.072     1>Destino "AfterCppClean: (TargetId:20)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppClean.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CppClean" depende dele):
+14:04:28.072     1>Destino de compilação pronto"AfterCppClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:20)
+14:04:28.072     1>Destino "PGInstrumentedClean: (TargetId:21)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppClean.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CppClean" depende dele):
+                   Tarefa "Delete" (TaskId:23)
+                   Tarefa em execução pronta "Delete". (TaskId:23)
+14:04:28.072     1>Destino de compilação pronto"PGInstrumentedClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:21)
+14:04:28.072     1>Destino "CppClean: (TargetId:22)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppClean.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Clean" depende dele):
+14:04:28.072     1>Destino de compilação pronto"CppClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:22)
+14:04:28.072     1>Destino "Clean: (TargetId:23)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Rebuild" depende dele):
+14:04:28.072     1>Destino de compilação pronto"Clean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:23)
+14:04:28.072     1>Destino "_PrepareForBuild: (TargetId:24)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+14:04:28.072     1>Destino de compilação pronto"_PrepareForBuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:24)
+14:04:28.072     1>Destino "_PrepareForReferenceResolution: (TargetId:25)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveReferences" depende dele):
+14:04:28.072     1>Destino de compilação pronto"_PrepareForReferenceResolution" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:25)
+14:04:28.072     1>Destino "BeforeResolveReferences: (TargetId:26)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveReferences" depende dele):
+14:04:28.072     1>Destino de compilação pronto"BeforeResolveReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:26)
+14:04:28.072     1>Destino "ResolveProjectReferences: (TargetId:27)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveReferences" depende dele):
+14:04:28.072     1>Destino de compilação pronto"ResolveProjectReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:27)
+14:04:28.072     1>Destino "GetFrameworkPaths: (TargetId:28)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveAssemblyReferences" depende dele):
+14:04:28.072     1>Destino de compilação pronto"GetFrameworkPaths" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:28)
+14:04:28.072     1>Destino "GetReferenceAssemblyPaths: (TargetId:29)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveAssemblyReferences" depende dele):
+14:04:28.072     1>Destino de compilação pronto"GetReferenceAssemblyPaths" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:29)
+14:04:28.072     1>Destino "AddExternalIncludDirectoriesToPaths: (TargetId:30)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.Current.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "SetBuildDefaultEnvironmentVariables" depende dele):
+14:04:28.072     1>Destino de compilação pronto"AddExternalIncludDirectoriesToPaths" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:30)
+14:04:28.072     1>Destino "SetBuildDefaultEnvironmentVariables: (TargetId:31)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.Current.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareForBuild" depende dele):
+                   Tarefa "SetEnv" (TaskId:24)
+                   Tarefa em execução pronta "SetEnv". (TaskId:24)
+                   Tarefa "SetEnv" (TaskId:25)
+                   Tarefa em execução pronta "SetEnv". (TaskId:25)
+                   Tarefa "SetEnv" (TaskId:26)
+                   Tarefa em execução pronta "SetEnv". (TaskId:26)
+                   Tarefa "SetEnv" (TaskId:27)
+                   Tarefa em execução pronta "SetEnv". (TaskId:27)
+                   Tarefa "SetEnv" (TaskId:28)
+                   Tarefa em execução pronta "SetEnv". (TaskId:28)
+14:04:28.072     1>Destino de compilação pronto"SetBuildDefaultEnvironmentVariables" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:31)
+14:04:28.072     1>Destino "GetResolvedWinMD: (TargetId:32)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareForBuild" depende dele):
+14:04:28.072     1>Destino de compilação pronto"GetResolvedWinMD" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:32)
+14:04:28.072     1>Destino "_CheckWindowsSDKInstalled: (TargetId:33)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.Cpp.WindowsSDK.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareForBuild" depende dele):
+14:04:28.072     1>Destino de compilação pronto"_CheckWindowsSDKInstalled" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:33)
+14:04:28.072     1>Destino "SetCABuildNativeEnvironmentVariables: (TargetId:34)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VisualStudio\v18.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareForBuild" depende dele):
+                   Tarefa "SetEnv" (TaskId:29)
+                   Tarefa em execução pronta "SetEnv". (TaskId:29)
+14:04:28.072     1>Destino de compilação pronto"SetCABuildNativeEnvironmentVariables" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:34)
+14:04:28.072     1>Destino "PrepareForBuild: (TargetId:35)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveAssemblyReferences" depende dele):
+                   Tarefa "MakeDir" (TaskId:30)
+                   Tarefa em execução pronta "MakeDir". (TaskId:30)
+                   Tarefa "CheckVCToolsetVersion" (TaskId:31)
+                   Tarefa em execução pronta "CheckVCToolsetVersion". (TaskId:31)
+                   Tarefa "VCMessage" (TaskId:32)
+                   Tarefa em execução pronta "VCMessage". (TaskId:32)
+                   Tarefa "MakeDir" (TaskId:33)
+                   Tarefa em execução pronta "MakeDir". (TaskId:33)
+14:04:28.074     1>Destino de compilação pronto"PrepareForBuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:35)
+14:04:28.074     1>Destino "ResolveSDKReferences: (TargetId:36)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveAssemblyReferences" depende dele):
+14:04:28.074     1>Destino de compilação pronto"ResolveSDKReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:36)
+14:04:28.074     1>Destino "ExpandSDKReferences: (TargetId:37)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveAssemblyReferences" depende dele):
+14:04:28.074     1>Destino de compilação pronto"ExpandSDKReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:37)
+14:04:28.074     1>Destino "ResolveAssemblyReferences: (TargetId:38)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveReferences" depende dele):
+14:04:28.074     1>Destino de compilação pronto"ResolveAssemblyReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:38)
+14:04:28.074     1>Destino "AfterResolveReferences: (TargetId:39)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ResolveReferences" depende dele):
+14:04:28.074     1>Destino de compilação pronto"AfterResolveReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:39)
+14:04:28.074     1>Destino "ResolveReferences: (TargetId:40)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+14:04:28.074     1>Destino de compilação pronto"ResolveReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:40)
+14:04:28.074     1>Destino "InitializeBuildStatus: (TargetId:41)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+                   Tarefa "ReadLinesFromFile" (TaskId:34)
+                   Tarefa em execução pronta "ReadLinesFromFile". (TaskId:34)
+                   Tarefa "WriteLinesToFile" (TaskId:35)
+                   Tarefa em execução pronta "WriteLinesToFile". (TaskId:35)
+                   Tarefa "Touch" (TaskId:36)
+                   Tarefa em execução pronta "Touch". (TaskId:36)
+14:04:28.075     1>Destino de compilação pronto"InitializeBuildStatus" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:41)
+14:04:28.075     1>Destino "BuildGenerateSourcesTraverse: (TargetId:42)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "BuildGenerateSources" depende dele):
+14:04:28.075     1>Destino de compilação pronto"BuildGenerateSourcesTraverse" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:42)
+14:04:28.075     1>Destino "BeforeBuildGenerateSources: (TargetId:43)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+14:04:28.075     1>Destino de compilação pronto"BeforeBuildGenerateSources" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:43)
+14:04:28.075     1>Destino "PreBuildEvent: (TargetId:44)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+14:04:28.075     1>Destino de compilação pronto"PreBuildEvent" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:44)
+14:04:28.075     1>Destino "_SelectedFiles: (TargetId:45)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "SelectCustomBuild" depende dele):
+14:04:28.075     1>Destino de compilação pronto"_SelectedFiles" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:45)
+14:04:28.075     1>Destino "SelectCustomBuild: (TargetId:46)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CustomBuild" depende dele):
+14:04:28.075     1>Destino de compilação pronto"SelectCustomBuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:46)
+14:04:28.075     1>Destino "ComputeCustomBuildOutput: (TargetId:47)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CustomBuild" depende dele):
+                   Tarefa "MakeDir" (TaskId:37)
+                   Tarefa em execução pronta "MakeDir". (TaskId:37)
+14:04:28.075     1>Destino de compilação pronto"ComputeCustomBuildOutput" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:47)
+14:04:28.075     1>Destino "CustomBuild: (TargetId:48)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+                   Tarefa "GetOutOfDateItems" (TaskId:38)
+                   Tarefa em execução pronta "GetOutOfDateItems". (TaskId:38)
+                   Tarefa "GetOutOfDateItems" (TaskId:39)
+                   Tarefa em execução pronta "GetOutOfDateItems". (TaskId:39)
+14:04:28.075     1>Destino de compilação pronto"CustomBuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:48)
+14:04:28.075     1>Destino "CopyFileToFolders: (TargetId:49)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+                   Tarefa "GetOutOfDateItems" (TaskId:40)
+                   Tarefa em execução pronta "GetOutOfDateItems". (TaskId:40)
+14:04:28.075     1>Destino de compilação pronto"CopyFileToFolders" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:49)
+14:04:28.075     1>Destino "_Xsd: (TargetId:50)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+14:04:28.075     1>Destino de compilação pronto"_Xsd" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:50)
+14:04:28.075     1>Destino "MakeDirsForMidl: (TargetId:51)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Midl" depende dele):
+                   Tarefa "Makedir" (TaskId:41)
+                   Tarefa em execução pronta "Makedir". (TaskId:41)
+14:04:28.075     1>Destino de compilação pronto"MakeDirsForMidl" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:51)
+14:04:28.075     1>Destino "ComputeMIDLGeneratedCompileInputs: (TargetId:52)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Midl" depende dele):
+14:04:28.075     1>Destino de compilação pronto"ComputeMIDLGeneratedCompileInputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:52)
+14:04:28.075     1>Destino "AfterMidl: (TargetId:53)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Midl" depende dele):
+14:04:28.075     1>Destino de compilação pronto"AfterMidl" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:53)
+14:04:28.075     1>Destino "_Midl: (TargetId:54)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+14:04:28.075     1>Destino de compilação pronto"_Midl" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:54)
+14:04:28.075     1>Destino "AfterBuildGenerateSources: (TargetId:55)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+14:04:28.075     1>Destino de compilação pronto"AfterBuildGenerateSources" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:55)
+14:04:28.075     1>Destino "AfterBuildGenerateSourcesEvent: (TargetId:56)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildGenerateSourcesAction" depende dele):
+14:04:28.075     1>Destino de compilação pronto"AfterBuildGenerateSourcesEvent" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:56)
+14:04:28.075     1>Destino "_BuildGenerateSourcesAction: (TargetId:57)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "BuildGenerateSources" depende dele):
+14:04:28.075     1>Destino de compilação pronto"_BuildGenerateSourcesAction" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:57)
+14:04:28.075     1>Destino "BuildGenerateSources: (TargetId:58)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+14:04:28.075     1>Destino de compilação pronto"BuildGenerateSources" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:58)
+14:04:28.075     1>Destino "BuildCompileTraverse: (TargetId:59)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "BuildCompile" depende dele):
+14:04:28.075     1>Destino de compilação pronto"BuildCompileTraverse" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:59)
+14:04:28.075     1>Destino "BeforeClCompile: (TargetId:60)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:28.075     1>Destino de compilação pronto"BeforeClCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:60)
+14:04:28.075     1>Destino "ComputeCLInputPDBName: (TargetId:61)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:28.075     1>Destino de compilação pronto"ComputeCLInputPDBName" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:61)
+14:04:28.075     1>Destino "FindReferenceAssembliesForReferences: (TargetId:62)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ComputeReferenceCLInput" depende dele):
+14:04:28.075     1>Destino de compilação pronto"FindReferenceAssembliesForReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:62)
+14:04:28.075     1>Destino "GetReferencedVCProjectsInfo: (TargetId:63)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ComputeReferenceCLInput" depende dele):
+14:04:28.075     1>Destino de compilação pronto"GetReferencedVCProjectsInfo" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:63)
+14:04:28.075     1>Destino "ComputeReferenceCLInput: (TargetId:64)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:28.075     1>Destino de compilação pronto"ComputeReferenceCLInput" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:64)
+14:04:28.075     1>Destino "WarnCompileDuplicatedFilename: (TargetId:65)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:28.075     1>Destino de compilação pronto"WarnCompileDuplicatedFilename" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:65)
+14:04:28.076     1>Destino "SetCppLanguageStandardCapabilities: (TargetId:66)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ComputeStdModulesCompileInputs" depende dele):
+14:04:28.076     1>Destino de compilação pronto"SetCppLanguageStandardCapabilities" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:66)
+14:04:28.076     1>Destino "ComputeStdModulesCompileInputs: (TargetId:67)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:28.076     1>Destino de compilação pronto"ComputeStdModulesCompileInputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:67)
+14:04:28.076     1>Destino "FixupCLCompileOptions: (TargetId:68)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:28.076     1>Destino de compilação pronto"FixupCLCompileOptions" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:68)
+14:04:28.076     1>Destino "MakeDirsForCl: (TargetId:69)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+                   Tarefa "MakeDir" (TaskId:42)
+                   Tarefa em execução pronta "MakeDir". (TaskId:42)
+14:04:28.076     1>Destino de compilação pronto"MakeDirsForCl" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:69)
+14:04:28.076     1>Destino "SelectClCompile: (TargetId:70)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ClCompile" depende dele):
+14:04:28.076     1>Destino de compilação pronto"SelectClCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:70)
+14:04:28.076     1>Destino "ClCompile: (TargetId:71)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+                   Tarefa "Delete" (TaskId:43)
+                   Tarefa em execução pronta "Delete". (TaskId:43)
+                   Tarefa "CL" (TaskId:44)
+                     C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\CL.exe /c /IC:\LibaTracker\libs\include /IC:\LibaTracker\DRIVER_CPP\ /IC:\LibaTracker\OpenVR\headers /IC:\LibaTracker\libs\zlibs\include /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D UDP_LISTENER_EXPORTS /D NDEBUG /D WIN32 /D _WINDOWS /D ... /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /permissive- /Fo"LibaTrac.739b6ea5\x64\Debug\\" /Fd"LibaTrac.739b6ea5\x64\Debug\vc145.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ..\driver_device.cpp ..\driver_main.cpp ..\udp_listener.cpp ..\utils.cpp (TaskId:44)
+                     driver_device.cpp (TaskId:44)
+                     driver_main.cpp (TaskId:44)
+                     udp_listener.cpp (TaskId:44)
+                     utils.cpp (TaskId:44)
+                     Gerando Código... (TaskId:44)
+                   Tarefa em execução pronta "CL". (TaskId:44)
+14:04:29.630     1>Destino de compilação pronto"ClCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:71)
+14:04:29.630     1>Destino "AfterClCompile: (TargetId:72)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ClCompile" depende dele):
+14:04:29.630     1>Destino de compilação pronto"AfterClCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:72)
+14:04:29.630     1>Destino "_ClCompile: (TargetId:73)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildCompileAction" depende dele):
+14:04:29.630     1>Destino de compilação pronto"_ClCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:73)
+14:04:29.630     1>Destino "BeforeResourceCompile: (TargetId:74)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ResourceCompile" depende dele):
+14:04:29.630     1>Destino de compilação pronto"BeforeResourceCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:74)
+14:04:29.630     1>Destino "MakeDirsForResourceCompile: (TargetId:75)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ResourceCompile" depende dele):
+                   Tarefa "MakeDir" (TaskId:45)
+                   Tarefa em execução pronta "MakeDir". (TaskId:45)
+14:04:29.630     1>Destino de compilação pronto"MakeDirsForResourceCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:75)
+14:04:29.630     1>Destino "AfterResourceCompile: (TargetId:76)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_ResourceCompile" depende dele):
+14:04:29.630     1>Destino de compilação pronto"AfterResourceCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:76)
+14:04:29.630     1>Destino "_ResourceCompile: (TargetId:77)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildCompileAction" depende dele):
+14:04:29.630     1>Destino de compilação pronto"_ResourceCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:77)
+14:04:29.630     1>Destino "AfterBuildCompileEvent: (TargetId:78)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildCompileAction" depende dele):
+14:04:29.630     1>Destino de compilação pronto"AfterBuildCompileEvent" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:78)
+14:04:29.630     1>Destino "_BuildCompileAction: (TargetId:79)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "BuildCompile" depende dele):
+14:04:29.630     1>Destino de compilação pronto"_BuildCompileAction" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:79)
+14:04:29.630     1>Destino "BuildCompile: (TargetId:80)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+14:04:29.630     1>Destino de compilação pronto"BuildCompile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:80)
+14:04:29.630     1>Destino "BuildLinkTraverse: (TargetId:81)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "BuildLink" depende dele):
+14:04:29.630     1>Destino de compilação pronto"BuildLinkTraverse" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:81)
+14:04:29.630     1>Destino "ComputeLegacyManifestEmbedding: (TargetId:82)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeLegacyManifestEmbedding" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:82)
+14:04:29.631     1>Destino "BeforeLink: (TargetId:83)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"BeforeLink" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:83)
+14:04:29.631     1>Destino "ComputeRCOutputs: (TargetId:84)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ComputeRCGeneratedLinkInputs" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeRCOutputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:84)
+14:04:29.631     1>Destino "ComputeRCGeneratedLinkInputs: (TargetId:85)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeRCGeneratedLinkInputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:85)
+14:04:29.631     1>Destino "ComputeManifestGeneratedLinkerInputs: (TargetId:86)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeManifestGeneratedLinkerInputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:86)
+14:04:29.631     1>Destino "ComputeCLOutputs: (TargetId:87)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ComputeCLGeneratedLinkInputs" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeCLOutputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:87)
+14:04:29.631     1>Destino "ComputeCLGeneratedLinkInputs: (TargetId:88)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeCLGeneratedLinkInputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:88)
+14:04:29.631     1>Destino "ComputeLinkInputsFromProject: (TargetId:89)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeLinkInputsFromProject" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:89)
+14:04:29.631     1>Destino "ComputeManifestInputsTargets: (TargetId:90)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"ComputeManifestInputsTargets" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:90)
+14:04:29.631     1>Destino "AssignTargetPaths: (TargetId:91)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareResourceNames" depende dele):
+                   Tarefa "AssignTargetPath" (TaskId:46)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:46)
+                   Tarefa "AssignTargetPath" (TaskId:47)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:47)
+                   Tarefa "AssignTargetPath" (TaskId:48)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:48)
+                   Tarefa "AssignTargetPath" (TaskId:49)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:49)
+14:04:29.631     1>Destino de compilação pronto"AssignTargetPaths" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:91)
+14:04:29.631     1>Destino "SplitResourcesByCulture: (TargetId:92)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareResourceNames" depende dele):
+                   Tarefa "AssignCulture" (TaskId:50)
+                   Tarefa em execução pronta "AssignCulture". (TaskId:50)
+14:04:29.631     1>Destino de compilação pronto"SplitResourcesByCulture" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:92)
+14:04:29.631     1>Destino "CreateCustomManifestResourceNames: (TargetId:93)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareResourceNames" depende dele):
+14:04:29.631     1>Destino de compilação pronto"CreateCustomManifestResourceNames" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:93)
+14:04:29.631     1>Destino "PrepareResourceNames: (TargetId:94)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.631     1>Destino de compilação pronto"PrepareResourceNames" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:94)
+14:04:29.631     1>Destino "MakeDirsForLink: (TargetId:95)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+                   Tarefa "MakeDir" (TaskId:51)
+                   Tarefa em execução pronta "MakeDir". (TaskId:51)
+14:04:29.632     1>Destino de compilação pronto"MakeDirsForLink" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:95)
+14:04:29.632     1>Destino "DoLinkOutputFilesMatch: (TargetId:96)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.632     1>Destino de compilação pronto"DoLinkOutputFilesMatch" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:96)
+14:04:29.632     1>Destino "PreLinkEvent: (TargetId:97)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.632     1>Destino de compilação pronto"PreLinkEvent" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:97)
+14:04:29.632     1>Destino "ComputeLinkSwitches: (TargetId:98)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Link" depende dele):
+14:04:29.632     1>Destino de compilação pronto"ComputeLinkSwitches" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:98)
+14:04:29.632     1>Destino "Link: (TargetId:99)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+                   Tarefa "Link" (TaskId:52)
+                     C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.dll" /INCREMENTAL /ILK:"LibaTrac.739b6ea5\x64\Debug\driver_libatracker.ilk" /NOLOGO /LIBPATH:C:\LibaTracker\libs\zlib /LIBPATH:C:\LibaTracker\OpenVR\lib\win64 Ws2_32.lib openvr_api.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:NO /manifest:embed /DEBUG /PDB:"C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.lib" /MACHINE:X64 /DLL LibaTrac.739b6ea5\x64\Debug\driver_device.obj
+                     LibaTrac.739b6ea5\x64\Debug\driver_main.obj
+                     LibaTrac.739b6ea5\x64\Debug\udp_listener.obj
+                     LibaTrac.739b6ea5\x64\Debug\utils.obj (TaskId:52)
+                        Criando biblioteca C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.lib e objeto C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.exp (TaskId:52)
+                   Tarefa em execução pronta "Link". (TaskId:52)
+                   Tarefa "Message" (TaskId:53)
+                     LibaTrackerDriver.vcxproj -> C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.dll (TaskId:53)
+                   Tarefa em execução pronta "Message". (TaskId:53)
+14:04:29.747     1>Destino de compilação pronto"Link" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:99)
+14:04:29.747     1>Destino "AfterLink: (TargetId:100)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_Link" depende dele):
+14:04:29.747     1>Destino de compilação pronto"AfterLink" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:100)
+14:04:29.747     1>Destino "_Link: (TargetId:101)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.747     1>Destino de compilação pronto"_Link" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:101)
+14:04:29.747     1>Destino "_ALink: (TargetId:102)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.747     1>Destino de compilação pronto"_ALink" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:102)
+14:04:29.747     1>Destino "_Manifest: (TargetId:103)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.747     1>Destino de compilação pronto"_Manifest" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:103)
+14:04:29.747     1>Destino "RegisterOutput: (TargetId:104)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.747     1>Destino de compilação pronto"RegisterOutput" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:104)
+14:04:29.747     1>Destino "ResolvedXDCMake: (TargetId:105)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_XdcMake" depende dele):
+14:04:29.747     1>Destino de compilação pronto"ResolvedXDCMake" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:105)
+14:04:29.747     1>Destino "ComputeCLCompileGeneratedXDCFiles: (TargetId:106)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_XdcMake" depende dele):
+14:04:29.747     1>Destino de compilação pronto"ComputeCLCompileGeneratedXDCFiles" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:106)
+14:04:29.747     1>Destino "MakeDirsForXdcMake: (TargetId:107)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_XdcMake" depende dele):
+                   Tarefa "MakeDir" (TaskId:54)
+                   Tarefa em execução pronta "MakeDir". (TaskId:54)
+14:04:29.747     1>Destino de compilação pronto"MakeDirsForXdcMake" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:107)
+14:04:29.747     1>Destino "_XdcMake: (TargetId:108)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.747     1>Destino de compilação pronto"_XdcMake" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:108)
+14:04:29.747     1>Destino "ComputeCLCompileGeneratedSbrFiles: (TargetId:109)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BscMake" depende dele):
+14:04:29.747     1>Destino de compilação pronto"ComputeCLCompileGeneratedSbrFiles" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:109)
+14:04:29.747     1>Destino "MakeDirsForBscMake: (TargetId:110)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BscMake" depende dele):
+                   Tarefa "MakeDir" (TaskId:55)
+                   Tarefa em execução pronta "MakeDir". (TaskId:55)
+14:04:29.747     1>Destino de compilação pronto"MakeDirsForBscMake" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:110)
+14:04:29.747     1>Destino "_BscMake: (TargetId:111)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.747     1>Destino de compilação pronto"_BscMake" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:111)
+14:04:29.747     1>Destino "BuiltProjectOutputGroup: (TargetId:112)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CreateRecipeFile" depende dele):
+14:04:29.747     1>Destino de compilação pronto"BuiltProjectOutputGroup" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:112)
+14:04:29.747     1>Destino "SatelliteDllsProjectOutputGroup: (TargetId:113)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CreateRecipeFile" depende dele):
+14:04:29.747     1>Destino de compilação pronto"SatelliteDllsProjectOutputGroup" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:113)
+14:04:29.747     1>Destino "MakeDirsForFxc: (TargetId:114)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "ContentFilesProjectOutputGroup" depende dele):
+                   Tarefa "MakeDir" (TaskId:56)
+                   Tarefa em execução pronta "MakeDir". (TaskId:56)
+14:04:29.747     1>Destino de compilação pronto"MakeDirsForFxc" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:114)
+14:04:29.747     1>Destino "ContentFilesProjectOutputGroup: (TargetId:115)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CreateRecipeFile" depende dele):
+14:04:29.748     1>Destino de compilação pronto"ContentFilesProjectOutputGroup" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:115)
+14:04:29.748     1>Destino "CreateRecipeFile: (TargetId:116)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+                   Tarefa "GenerateDesktopDeployRecipe" (TaskId:57)
+                   Tarefa em execução pronta "GenerateDesktopDeployRecipe". (TaskId:57)
+14:04:29.759     1>Destino de compilação pronto"CreateRecipeFile" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:116)
+14:04:29.759     1>Destino "_GenerateSatelliteAssemblyInputs: (TargetId:117)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CreateSatelliteAssemblies" depende dele):
+14:04:29.759     1>Destino de compilação pronto"_GenerateSatelliteAssemblyInputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:117)
+14:04:29.759     1>Destino "CreateSatelliteAssemblies: (TargetId:118)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.759     1>Destino de compilação pronto"CreateSatelliteAssemblies" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:118)
+14:04:29.759     1>Destino "_Appverifier: (TargetId:119)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.759     1>Destino de compilação pronto"_Appverifier" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:119)
+14:04:29.759     1>Destino "_Deploy: (TargetId:120)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.759     1>Destino de compilação pronto"_Deploy" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:120)
+14:04:29.759     1>Destino "_PopulateCommonStateForGetCopyToOutputDirectoryItems: (TargetId:121)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "GetCopyToOutputDirectoryItems" depende dele):
+14:04:29.759     1>Destino de compilação pronto"_PopulateCommonStateForGetCopyToOutputDirectoryItems" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:121)
+14:04:29.759     1>Destino "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:122)" no arquivo "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "GetCopyToOutputDirectoryItems" depende dele):
+                   Tarefa "AssignTargetPath" (TaskId:58)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:58)
+14:04:29.759     1>Destino de compilação pronto"GetCopyToOutputDirectoryXamlAppDefs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:122)
+14:04:29.759     1>Destino "GetCopyToOutputDirectoryItems: (TargetId:123)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_CopySourceItemsToOutputDirectory" depende dele):
+                   Tarefa "CallTarget" (TaskId:59)
+14:04:29.760     1>Destino "_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences: (TargetId:124)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "GetCopyToOutputDirectoryItems" depende dele):
+                   Tarefa "AssignTargetPath" (TaskId:60)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:60)
+14:04:29.761     1>Destino de compilação pronto"_GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:124)
+                   Tarefa em execução pronta "CallTarget". (TaskId:59)
+                   Tarefa "CallTarget" (TaskId:61)
+14:04:29.762     1>Destino "_GetCopyToOutputDirectoryItemsFromThisProject: (TargetId:125)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "GetCopyToOutputDirectoryItems" depende dele):
+                   Tarefa "AssignTargetPath" (TaskId:62)
+                   Tarefa em execução pronta "AssignTargetPath". (TaskId:62)
+14:04:29.762     1>Destino de compilação pronto"_GetCopyToOutputDirectoryItemsFromThisProject" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:125)
+                   Tarefa em execução pronta "CallTarget". (TaskId:61)
+14:04:29.763     1>Destino de compilação pronto"GetCopyToOutputDirectoryItems" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:123)
+14:04:29.763     1>Destino "_CopySourceItemsToOutputDirectory: (TargetId:126)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CopyFilesToOutputDirectory" depende dele):
+14:04:29.763     1>Destino de compilação pronto"_CopySourceItemsToOutputDirectory" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:126)
+14:04:29.763     1>Destino "_CheckForCompileOutputs: (TargetId:127)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "CopyFilesToOutputDirectory" depende dele):
+14:04:29.763     1>Destino de compilação pronto"_CheckForCompileOutputs" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:127)
+14:04:29.763     1>Destino "CopyFilesToOutputDirectory: (TargetId:128)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "PrepareForRun" depende dele):
+14:04:29.763     1>Destino de compilação pronto"CopyFilesToOutputDirectory" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:128)
+14:04:29.763     1>Destino "PrepareForRun: (TargetId:129)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+14:04:29.763     1>Destino de compilação pronto"PrepareForRun" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:129)
+14:04:29.763     1>Destino "PostBuildEvent: (TargetId:130)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppCommon.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "_BuildLinkAction" depende dele):
+                   Tarefa "Exec" (TaskId:63)
+                     xcopy /Y "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.dll" "C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\libatracker\bin\win64\"
+                     :VCEnd (TaskId:63)
+                     C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\x64\Debug\driver_libatracker.dll (TaskId:63)
+                     1 arquivo(s) copiado(s) (TaskId:63)
+                   Tarefa em execução pronta "Exec". (TaskId:63)
+14:04:29.833     1>Destino de compilação pronto"PostBuildEvent" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:130)
+14:04:29.833     1>Destino "_BuildLinkAction: (TargetId:131)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "BuildLink" depende dele):
+14:04:29.833     1>Destino de compilação pronto"_BuildLinkAction" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:131)
+14:04:29.833     1>Destino "BuildLink: (TargetId:132)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+14:04:29.833     1>Destino de compilação pronto"BuildLink" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:132)
+14:04:29.833     1>Destino "AfterBuild: (TargetId:133)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+14:04:29.833     1>Destino de compilação pronto"AfterBuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:133)
+14:04:29.833     1>Destino "_CleanGetCurrentAndPriorFileWrites: (TargetId:134)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "IncrementalClean" depende dele):
+                   Tarefa "ReadLinesFromFile" (TaskId:64)
+                   Tarefa em execução pronta "ReadLinesFromFile". (TaskId:64)
+                   Tarefa "ConvertToAbsolutePath" (TaskId:65)
+                   Tarefa em execução pronta "ConvertToAbsolutePath". (TaskId:65)
+                   Tarefa "FindUnderPath" (TaskId:66)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:66)
+                   Tarefa "FindUnderPath" (TaskId:67)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:67)
+                   Tarefa "FindUnderPath" (TaskId:68)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:68)
+                   Tarefa "RemoveDuplicates" (TaskId:69)
+                   Tarefa em execução pronta "RemoveDuplicates". (TaskId:69)
+14:04:29.834     1>Destino de compilação pronto"_CleanGetCurrentAndPriorFileWrites" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:134)
+14:04:29.834     1>Destino "IncrementalClean: (TargetId:135)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+                   Tarefa "FindUnderPath" (TaskId:70)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:70)
+                   Tarefa "FindUnderPath" (TaskId:71)
+                   Tarefa em execução pronta "FindUnderPath". (TaskId:71)
+                   Tarefa "Delete" (TaskId:72)
+                   Tarefa em execução pronta "Delete". (TaskId:72)
+                   Tarefa "RemoveDuplicates" (TaskId:73)
+                   Tarefa em execução pronta "RemoveDuplicates". (TaskId:73)
+14:04:29.834     1>Destino de compilação pronto"IncrementalClean" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:135)
+14:04:29.835     1>Destino "TlogCleanup: (TargetId:136)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+                   Tarefa "CleanupStaleTlogItems" (TaskId:74)
+                   Tarefa em execução pronta "CleanupStaleTlogItems". (TaskId:74)
+14:04:29.838     1>Destino de compilação pronto"TlogCleanup" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:136)
+14:04:29.838     1>Destino "FinalizeBuildStatus: (TargetId:137)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Build" depende dele):
+                   Tarefa "Delete" (TaskId:75)
+                   Tarefa em execução pronta "Delete". (TaskId:75)
+                   Tarefa "Touch" (TaskId:76)
+                   Tarefa em execução pronta "Touch". (TaskId:76)
+14:04:29.839     1>Destino de compilação pronto"FinalizeBuildStatus" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:137)
+14:04:29.839     1>Destino "Build: (TargetId:138)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Rebuild" depende dele):
+14:04:29.839     1>Destino de compilação pronto"Build" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:138)
+14:04:29.839     1>Destino "AfterRebuild: (TargetId:139)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (o destino "Rebuild" depende dele):
+14:04:29.839     1>Destino de compilação pronto"AfterRebuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:139)
+14:04:29.839     1>Destino "Rebuild: (TargetId:140)" no arquivo "C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Microsoft\VC\v180\Microsoft.BuildSteps.Targets" do projeto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (ponto de entrada):
+14:04:29.839     1>Destino de compilação pronto"Rebuild" no projeto "LibaTrackerDriver.vcxproj".: (TargetId:140)
+14:04:29.839     1>Projeto de compilação pronto "C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj" (Rebuild destino(s)).
+
+Resumo do Desempenho do Projeto:
+     1777 ms C:\LibaTracker\DRIVER_CPP\LibaTrackerDriver\LibaTrackerDriver.vcxproj   1 chamadas
+               1777 ms Rebuild                                    1 chamadas
+
+Resumo do Desempenho do Destino:
+        0 ms Rebuild                                    1 chamadas
+        0 ms ComputeLinkInputsFromProject               1 chamadas
+        0 ms ComputeCLGeneratedLinkInputs               1 chamadas
+        0 ms ComputeCLOutputs                           1 chamadas
+        0 ms ComputeManifestGeneratedLinkerInputs       1 chamadas
+        0 ms ComputeRCGeneratedLinkInputs               1 chamadas
+        0 ms ComputeRCOutputs                           1 chamadas
+        0 ms BeforeLink                                 1 chamadas
+        0 ms PrepareForRun                              1 chamadas
+        0 ms BuildLinkTraverse                          1 chamadas
+        0 ms BuildCompile                               1 chamadas
+        0 ms _BuildCompileAction                        1 chamadas
+        0 ms AfterBuildCompileEvent                     1 chamadas
+        0 ms ComputeManifestInputsTargets               1 chamadas
+        0 ms _ResourceCompile                           1 chamadas
+        0 ms MakeDirsForResourceCompile                 1 chamadas
+        0 ms BeforeResourceCompile                      1 chamadas
+        0 ms _ClCompile                                 1 chamadas
+        0 ms AfterClCompile                             1 chamadas
+        0 ms AfterRebuild                               1 chamadas
+        0 ms SelectClCompile                            1 chamadas
+        0 ms MakeDirsForCl                              1 chamadas
+        0 ms FixupCLCompileOptions                      1 chamadas
+        0 ms ComputeStdModulesCompileInputs             1 chamadas
+        0 ms SetCppLanguageStandardCapabilities         1 chamadas
+        0 ms WarnCompileDuplicatedFilename              1 chamadas
+        0 ms ComputeReferenceCLInput                    1 chamadas
+        0 ms AfterResourceCompile                       1 chamadas
+        0 ms AssignTargetPaths                          1 chamadas
+        0 ms SplitResourcesByCulture                    1 chamadas
+        0 ms CreateCustomManifestResourceNames          1 chamadas
+        0 ms _Deploy                                    1 chamadas
+        0 ms _Appverifier                               1 chamadas
+        0 ms CreateSatelliteAssemblies                  1 chamadas
+        0 ms _GenerateSatelliteAssemblyInputs           1 chamadas
+        0 ms _GetCopyToOutputDirectoryItemsFromThisProject   1 chamadas
+        0 ms _CopySourceItemsToOutputDirectory          1 chamadas
+        0 ms MakeDirsForFxc                             1 chamadas
+        0 ms SatelliteDllsProjectOutputGroup            1 chamadas
+        0 ms BuiltProjectOutputGroup                    1 chamadas
+        0 ms _BscMake                                   1 chamadas
+        0 ms MakeDirsForBscMake                         1 chamadas
+        0 ms ComputeCLCompileGeneratedSbrFiles          1 chamadas
+        0 ms _XdcMake                                   1 chamadas
+        0 ms MakeDirsForXdcMake                         1 chamadas
+        0 ms ComputeCLCompileGeneratedXDCFiles          1 chamadas
+        0 ms ResolvedXDCMake                            1 chamadas
+        0 ms RegisterOutput                             1 chamadas
+        0 ms _Manifest                                  1 chamadas
+        0 ms _ALink                                     1 chamadas
+        0 ms _Link                                      1 chamadas
+        0 ms AfterLink                                  1 chamadas
+        0 ms _CheckForCompileOutputs                    1 chamadas
+        0 ms ComputeLinkSwitches                        1 chamadas
+        0 ms PreLinkEvent                               1 chamadas
+        0 ms DoLinkOutputFilesMatch                     1 chamadas
+        0 ms CopyFilesToOutputDirectory                 1 chamadas
+        0 ms PrepareResourceNames                       1 chamadas
+        0 ms GetReferencedVCProjectsInfo                1 chamadas
+        0 ms _PopulateCommonStateForGetCopyToOutputDirectoryItems   1 chamadas
+        0 ms FindReferenceAssembliesForReferences       1 chamadas
+        0 ms BeforeClCompile                            1 chamadas
+        0 ms GetReferenceAssemblyPaths                  1 chamadas
+        0 ms GetFrameworkPaths                          1 chamadas
+        0 ms ResolveProjectReferences                   1 chamadas
+        0 ms BeforeResolveReferences                    1 chamadas
+        0 ms _PrepareForReferenceResolution             1 chamadas
+        0 ms _PrepareForBuild                           1 chamadas
+        0 ms Clean                                      1 chamadas
+        0 ms CppClean                                   1 chamadas
+        0 ms AfterCppClean                              1 chamadas
+        0 ms AfterBuild                                 1 chamadas
+        0 ms BeforeCppClean                             1 chamadas
+        0 ms AfterClean                                 1 chamadas
+        0 ms CleanPublishFolder                         1 chamadas
+        0 ms CleanReferencedProjects                    1 chamadas
+        0 ms PrepareProjectReferences                   1 chamadas
+        0 ms IncrementalClean                           1 chamadas
+        0 ms _AddOutputPathToGlobalPropertiesToRemove   1 chamadas
+        0 ms _SplitProjectReferencesByFileExistence     1 chamadas
+        0 ms IgnoreJavaScriptOutputAssembly             1 chamadas
+        0 ms Build                                      1 chamadas
+        0 ms BeforeClean                                1 chamadas
+        0 ms _PrepareForClean                           1 chamadas
+        0 ms BeforeRebuild                              1 chamadas
+        0 ms _PrepareForRebuild                         1 chamadas
+        0 ms SetTelemetryEnvironmentVariables           1 chamadas
+        0 ms AddExternalIncludDirectoriesToPaths        1 chamadas
+        0 ms ComputeCLInputPDBName                      1 chamadas
+        0 ms SetBuildDefaultEnvironmentVariables        1 chamadas
+        0 ms _CheckWindowsSDKInstalled                  1 chamadas
+        0 ms BuildCompileTraverse                       1 chamadas
+        0 ms BuildGenerateSources                       1 chamadas
+        0 ms _BuildGenerateSourcesAction                1 chamadas
+        0 ms AfterBuildGenerateSourcesEvent             1 chamadas
+        0 ms AfterBuildGenerateSources                  1 chamadas
+        0 ms _Midl                                      1 chamadas
+        0 ms AfterMidl                                  1 chamadas
+        0 ms ComputeMIDLGeneratedCompileInputs          1 chamadas
+        0 ms MakeDirsForMidl                            1 chamadas
+        0 ms _Xsd                                       1 chamadas
+        0 ms CopyFileToFolders                          1 chamadas
+        0 ms CustomBuild                                1 chamadas
+        0 ms GetResolvedWinMD                           1 chamadas
+        0 ms ComputeCustomBuildOutput                   1 chamadas
+        0 ms _SelectedFiles                             1 chamadas
+        0 ms PreBuildEvent                              1 chamadas
+        0 ms BeforeBuildGenerateSources                 1 chamadas
+        0 ms BuildGenerateSourcesTraverse               1 chamadas
+        0 ms _BuildLinkAction                           1 chamadas
+        0 ms ResolveReferences                          1 chamadas
+        0 ms AfterResolveReferences                     1 chamadas
+        0 ms ResolveAssemblyReferences                  1 chamadas
+        0 ms ExpandSDKReferences                        1 chamadas
+        0 ms ResolveSDKReferences                       1 chamadas
+        0 ms BuildLink                                  1 chamadas
+        0 ms SetCABuildNativeEnvironmentVariables       1 chamadas
+        0 ms SelectCustomBuild                          1 chamadas
+        0 ms GetCopyToOutputDirectoryXamlAppDefs        1 chamadas
+        0 ms PGInstrumentedClean                        1 chamadas
+        1 ms FinalizeBuildStatus                        1 chamadas
+        1 ms _CheckForInvalidConfigurationAndPlatform   1 chamadas
+        1 ms _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences   1 chamadas
+        1 ms ContentFilesProjectOutputGroup             1 chamadas
+        1 ms _CleanGetCurrentAndPriorFileWrites         1 chamadas
+        1 ms CoreClean                                  1 chamadas
+        1 ms ComputeLegacyManifestEmbedding             1 chamadas
+        1 ms _GetProjectReferenceTargetFrameworkProperties   1 chamadas
+        1 ms MakeDirsForLink                            1 chamadas
+        1 ms InitializeBuildStatus                      1 chamadas
+        2 ms PrepareForBuild                            1 chamadas
+        2 ms AssignProjectConfiguration                 1 chamadas
+        3 ms TlogCleanup                                1 chamadas
+        3 ms GetCopyToOutputDirectoryItems              1 chamadas
+        5 ms CoreCppClean                               1 chamadas
+       12 ms CreateRecipeFile                           1 chamadas
+       71 ms PostBuildEvent                             1 chamadas
+      115 ms Link                                       1 chamadas
+     1553 ms ClCompile                                  1 chamadas
+
+Resumo do Desempenho da Tarefa:
+        0 ms Message                                    3 chamadas
+        0 ms AssignCulture                              1 chamadas
+        0 ms AssignTargetPath                           7 chamadas
+        0 ms GetOutOfDateItems                          3 chamadas
+        0 ms ConvertToAbsolutePath                      1 chamadas
+        0 ms SetRidAgnosticValueForProjects             1 chamadas
+        0 ms MSBuild                                    1 chamadas
+        0 ms AssignProjectConfiguration                 1 chamadas
+        0 ms CheckVCToolsetVersion                      1 chamadas
+        0 ms RemoveDuplicates                           3 chamadas
+        0 ms FindUnderPath                              7 chamadas
+        0 ms SetEnv                                    11 chamadas
+        1 ms WriteLinesToFile                           3 chamadas
+        1 ms Delete                                     6 chamadas
+        1 ms ReadLinesFromFile                          3 chamadas
+        1 ms Touch                                      2 chamadas
+        1 ms VCMessage                                  1 chamadas
+        1 ms MakeDir                                   12 chamadas
+        2 ms CallTarget                                 2 chamadas
+        3 ms CleanupStaleTlogItems                      1 chamadas
+        4 ms CppClean                                   1 chamadas
+       12 ms GenerateDesktopDeployRecipe                1 chamadas
+       69 ms Exec                                       1 chamadas
+      115 ms Link                                       1 chamadas
+     1552 ms CL                                         1 chamadas
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:01.77
