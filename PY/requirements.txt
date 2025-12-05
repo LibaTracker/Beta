@@ -1,0 +1,4 @@
+pyvjoy
+requests # Adicionado para futuras interações HTTP mais robustas, se necessário
+zlib-ng # Uma alternativa mais rápida ao zlib, se você quiser otimizar. Caso contrário, zlib já é built-in.
+        # Se zlib-ng não for estritamente necessário ou causar problemas, pode ser removido.

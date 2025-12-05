@@ -1,0 +1,230 @@
+[2025-11-30 11:53:51,684] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 11:53:51,684] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 11:53:51,685] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 11:53:51,685] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 11:53:51,685] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 11:53:51,685] INFO: 
+============================================================
+[2025-11-30 11:53:51,686] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 11:53:51,686] INFO: ============================================================
+[2025-11-30 11:53:51,686] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 11:53:51,686] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 11:53:51,687] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 11:53:51,688] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 11:53:51,691] INFO: 
+⚠️  Pressione Ctrl+C para encerrar
+[2025-11-30 11:53:51,692] INFO: ============================================================
+
+[2025-11-30 11:54:06,193] INFO: [SCAN] Varrendo rede 192.168.3.0/24...
+[2025-11-30 11:54:06,193] INFO: [SCAN] Testando 192.168.3.1 ate 192.168.3.254...
+[2025-11-30 11:54:06,194] INFO: [SCAN] Aguarde, isso pode levar 30-60 segundos...
+[2025-11-30 11:54:06,272] INFO:   [OK] TRACKER ENCONTRADO: 192.168.3.37
+[2025-11-30 11:54:11,285] INFO: [SCAN] Finalizando scan...
+[2025-11-30 11:54:12,298] INFO: [SCAN] Verificando modo AP (192.168.4.1)...
+[2025-11-30 11:54:12,316] INFO: [SCAN] [OK] 1 tracker(s) encontrado(s):
+[2025-11-30 11:54:12,316] INFO:   • 192.168.3.37
+[2025-11-30 11:54:12,316] INFO: [SCAN] Usando: http://192.168.3.37
+[2025-11-30 11:54:12,322] INFO: [SYNC] Sincronizando tracker...
+[2025-11-30 11:54:12,322] INFO: [SYNC] Tracker URL: http://192.168.3.37
+[2025-11-30 11:54:12,322] INFO: [SYNC] PC IP: 192.168.3.18
+[2025-11-30 11:54:12,322] INFO: [SYNC] Salvando no slot 0: AutoSync_192_168_3_18
+[2025-11-30 11:54:12,323] INFO: [SYNC] URL: http://192.168.3.37/slot/save?slot=0&name=AutoSync_192_168_3_18
+[2025-11-30 11:54:12,480] INFO: [SYNC] [OK] Sincronizacao bem-sucedida com 192.168.3.37!
+[2025-11-30 11:54:12,481] INFO: [SYNC] Resposta: saved
+[2025-11-30 11:54:20,849] INFO: [SCAN] Varrendo rede 192.168.3.0/24...
+[2025-11-30 11:54:20,850] INFO: [SCAN] Testando 192.168.3.1 ate 192.168.3.254...
+[2025-11-30 11:54:20,850] INFO: [SCAN] Aguarde, isso pode levar 30-60 segundos...
+[2025-11-30 11:54:21,006] INFO:   [OK] TRACKER ENCONTRADO: 192.168.3.37
+[2025-11-30 11:54:25,940] INFO: [SCAN] Finalizando scan...
+[2025-11-30 11:54:26,943] INFO: [SCAN] Verificando modo AP (192.168.4.1)...
+[2025-11-30 11:54:26,961] INFO: [SCAN] [OK] 1 tracker(s) encontrado(s):
+[2025-11-30 11:54:26,961] INFO:   • 192.168.3.37
+[2025-11-30 11:54:26,962] INFO: [SCAN] Usando: http://192.168.3.37
+[2025-11-30 11:54:27,267] INFO: [SYNC] Sincronizando tracker...
+[2025-11-30 11:54:27,268] INFO: [SYNC] Tracker URL: http://192.168.3.37
+[2025-11-30 11:54:27,268] INFO: [SYNC] PC IP: 192.168.3.18
+[2025-11-30 11:54:27,268] INFO: [SYNC] Salvando no slot 0: AutoSync_192_168_3_18
+[2025-11-30 11:54:27,269] INFO: [SYNC] URL: http://192.168.3.37/slot/save?slot=0&name=AutoSync_192_168_3_18
+[2025-11-30 11:54:27,431] INFO: [SYNC] [OK] Sincronizacao bem-sucedida com 192.168.3.37!
+[2025-11-30 11:54:27,432] INFO: [SYNC] Resposta: saved
+[2025-11-30 11:54:39,107] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 11:54:39,107] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 11:54:39,108] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 11:54:39,108] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 11:54:39,108] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 11:54:39,109] INFO: 
+============================================================
+[2025-11-30 11:54:39,109] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 11:54:39,111] INFO: ============================================================
+[2025-11-30 11:54:39,113] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 11:54:39,113] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 11:54:39,114] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 11:54:39,115] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 11:54:39,115] INFO: 
+⚠️  Pressione Ctrl+C para encerrar
+[2025-11-30 11:54:39,116] INFO: ============================================================
+
+[2025-11-30 11:58:56,784] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 11:58:56,784] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 11:58:56,785] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 11:58:56,785] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 11:58:56,786] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 11:58:56,786] INFO: 
+============================================================
+[2025-11-30 11:58:56,786] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 11:58:56,787] INFO: ============================================================
+[2025-11-30 11:58:56,787] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 11:58:56,788] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 11:58:56,788] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 11:58:56,788] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 11:58:56,789] INFO: 
+⚠️  Pressione Ctrl+C para encerrar
+[2025-11-30 11:58:56,790] INFO: ============================================================
+
+[2025-11-30 11:58:57,951] INFO: 🌐 Tentando abrir navegador em http://localhost:8000
+[2025-11-30 12:00:07,067] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 12:00:07,067] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 12:00:07,068] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 12:00:07,068] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 12:00:07,068] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 12:00:07,068] INFO: 
+============================================================
+[2025-11-30 12:00:07,069] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 12:00:07,069] INFO: ============================================================
+[2025-11-30 12:00:07,070] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 12:00:07,070] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 12:00:07,071] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 12:00:07,071] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 12:00:07,071] INFO: 
+⚠️  Pressione Ctrl+C para encerrar
+[2025-11-30 12:00:07,071] INFO: ============================================================
+
+[2025-11-30 12:00:08,237] INFO: 🌐 Tentando abrir navegador em http://localhost:8000
+[2025-11-30 12:09:41,767] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 12:09:41,768] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 12:09:41,768] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 12:09:41,768] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 12:09:41,768] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 12:09:41,768] INFO: 
+============================================================
+[2025-11-30 12:09:41,768] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 12:09:41,769] INFO: ============================================================
+[2025-11-30 12:09:41,769] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 12:09:41,769] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 12:09:41,769] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 12:09:41,769] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 12:09:41,769] INFO: 
+⚠️  Pressione Ctrl+C para encerrar
+[2025-11-30 12:09:41,770] INFO: ============================================================
+
+[2025-11-30 12:15:23,387] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 12:15:23,387] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 12:15:23,387] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 12:15:23,388] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 12:15:23,388] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 12:15:23,388] INFO: 
+============================================================
+[2025-11-30 12:15:23,389] INFO: VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 12:15:23,389] INFO: ============================================================
+[2025-11-30 12:15:23,389] INFO: 
+Servidor iniciado!
+[2025-11-30 12:15:23,389] INFO: Acesse: http://localhost:8000
+[2025-11-30 12:15:23,389] INFO: Porta HTTP: 8000
+[2025-11-30 12:15:23,390] INFO: Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 12:15:23,390] INFO: 
+Pressione Ctrl+C para encerrar
+[2025-11-30 12:15:23,390] INFO: ============================================================
+
+[2025-11-30 12:26:28,088] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 12:26:28,088] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 12:26:28,089] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 12:26:28,089] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 12:26:28,089] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 12:26:28,089] INFO: 
+============================================================
+[2025-11-30 12:26:28,089] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 12:26:28,090] INFO: ============================================================
+[2025-11-30 12:26:28,090] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 12:26:28,090] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 12:26:28,091] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 12:26:28,091] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 12:26:28,092] INFO: 
+⚠️  NÃO FECHE ESTA JANELA!
+[2025-11-30 12:26:28,093] INFO:    Para encerrar o servidor, pressione Ctrl+C e depois 'S' para confirmar, ou feche a janela.
+[2025-11-30 12:26:28,094] INFO: ============================================================
+
+[2025-11-30 12:26:34,001] INFO: [SCAN] Varrendo rede 192.168.3.0/24...
+[2025-11-30 12:26:34,001] INFO: [SCAN] Testando 192.168.3.1 ate 192.168.3.254...
+[2025-11-30 12:26:34,002] INFO: [SCAN] Aguarde, isso pode levar 30-60 segundos...
+[2025-11-30 12:26:34,103] INFO:   [OK] TRACKER ENCONTRADO: 192.168.3.37
+[2025-11-30 12:26:39,087] INFO: [SCAN] Finalizando scan...
+[2025-11-30 12:26:40,100] INFO: [SCAN] Verificando modo AP (192.168.4.1)...
+[2025-11-30 12:26:40,117] INFO: [SCAN] [OK] 1 tracker(s) encontrado(s):
+[2025-11-30 12:26:40,117] INFO:   • 192.168.3.37
+[2025-11-30 12:26:40,117] INFO: [SCAN] Usando: http://192.168.3.37
+[2025-11-30 12:26:40,122] INFO: [SYNC] Sincronizando tracker...
+[2025-11-30 12:26:40,123] INFO: [SYNC] Tracker URL: http://192.168.3.37
+[2025-11-30 12:26:40,123] INFO: [SYNC] PC IP: 192.168.3.18
+[2025-11-30 12:26:40,123] INFO: [SYNC] Salvando no slot 0: AutoSync_192_168_3_18
+[2025-11-30 12:26:40,124] INFO: [SYNC] URL: http://192.168.3.37/slot/save?slot=0&name=AutoSync_192_168_3_18
+[2025-11-30 12:26:40,278] INFO: [SYNC] [OK] Sincronizacao bem-sucedida com 192.168.3.37!
+[2025-11-30 12:26:40,278] INFO: [SYNC] Resposta: saved
+[2025-11-30 12:30:26,743] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 12:30:26,743] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 12:30:26,744] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 12:30:26,744] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 12:30:26,744] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 12:30:26,744] INFO: 
+============================================================
+[2025-11-30 12:30:26,745] INFO: 🎮 VR TRACKER - CENTRAL DE CONTROLE
+[2025-11-30 12:30:26,745] INFO: ============================================================
+[2025-11-30 12:30:26,745] INFO: 
+✅ Servidor iniciado!
+[2025-11-30 12:30:26,745] INFO: 🌐 Acesse: http://localhost:8000
+[2025-11-30 12:30:26,745] INFO: 📡 Porta HTTP: 8000
+[2025-11-30 12:30:26,746] INFO: 📦 Porta UDP: 5005 (pacotes de 151 bytes)
+[2025-11-30 12:30:26,746] INFO: 
+⚠️  NÃO FECHE ESTA JANELA!
+[2025-11-30 12:30:26,746] INFO:    Para encerrar o servidor, pressione Ctrl+C e depois 'S' para confirmar, ou feche a janela.
+[2025-11-30 12:30:26,746] INFO: ============================================================
+
+[2025-11-30 12:30:31,946] INFO: [SCAN] Varrendo rede 192.168.3.0/24...
+[2025-11-30 12:30:31,946] INFO: [SCAN] Testando 192.168.3.1 ate 192.168.3.254...
+[2025-11-30 12:30:31,947] INFO: [SCAN] Aguarde, isso pode levar 30-60 segundos...
+[2025-11-30 12:30:32,067] INFO:   [OK] TRACKER ENCONTRADO: 192.168.3.37
+[2025-11-30 12:30:37,039] INFO: [SCAN] Finalizando scan...
+[2025-11-30 12:30:38,041] INFO: [SCAN] Verificando modo AP (192.168.4.1)...
+[2025-11-30 12:30:38,059] INFO: [SCAN] [OK] 1 tracker(s) encontrado(s):
+[2025-11-30 12:30:38,059] INFO:   • 192.168.3.37
+[2025-11-30 12:30:38,059] INFO: [SCAN] Usando: http://192.168.3.37
+[2025-11-30 12:30:38,064] INFO: [SYNC] Sincronizando tracker...
+[2025-11-30 12:30:38,064] INFO: [SYNC] Tracker URL: http://192.168.3.37
+[2025-11-30 12:30:38,065] INFO: [SYNC] PC IP: 192.168.3.18
+[2025-11-30 12:30:38,065] INFO: [SYNC] Salvando no slot 0: AutoSync_192_168_3_18
+[2025-11-30 12:30:38,065] INFO: [SYNC] URL: http://192.168.3.37/slot/save?slot=0&name=AutoSync_192_168_3_18
+[2025-11-30 12:30:38,202] INFO: [SYNC] [OK] Sincronizacao bem-sucedida com 192.168.3.37!
+[2025-11-30 12:30:38,202] INFO: [SYNC] Resposta: saved
+[2025-11-30 12:36:02,791] INFO: [PC_IP] Detectando IP do PC...
+[2025-11-30 12:36:02,791] INFO: [PC_IP] Tentando via socket...
+[2025-11-30 12:36:02,792] INFO: [OK] IP detectado via socket: 192.168.3.18
+[2025-11-30 12:36:02,792] INFO: [PC_IP] [OK] IP do PC: 192.168.3.18
+[2025-11-30 12:36:02,792] INFO: [PC_IP] Subnet: 192.168.3.0/24
+[2025-11-30 12:36:02,792] ERROR: 
+❌ Erro ao iniciar servidor: [WinError 10048] Normalmente é permitida apenas uma utilização de cada endereço de soquete (protocolo/endereço de rede/porta)
+[2025-11-30 12:36:48,476] INFO: Etapa 1: 0.6 m/s por 5s
+[2025-11-30 12:36:53,477] INFO: Etapa 1 concluída: stride=0.8688m
+[2025-11-30 12:37:01,005] INFO: Etapa 2: 1 m/s por 5s
+[2025-11-30 12:37:06,007] INFO: Etapa 2 concluída: stride=0.8632m
+[2025-11-30 12:37:09,768] INFO: Etapa 3: 1.4 m/s por 5s
+[2025-11-30 12:37:14,770] INFO: Etapa 3 concluída: stride=0.9599m
+[2025-11-30 12:37:19,773] INFO: Etapa 4: 1.8 m/s por 5s
+[2025-11-30 12:37:24,774] INFO: Etapa 4 concluída: stride=1.0436m
+[2025-11-30 12:37:25,079] INFO: Processando calibração...
+[2025-11-30 12:37:25,080] INFO: Calibração OK: stride=0.9339m
+[2025-11-30 12:37:53,613] INFO: Perfil salvo no slot 1: Default

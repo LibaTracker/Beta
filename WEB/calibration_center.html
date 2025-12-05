@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎮 VR Tracker - Centro de Calibração</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .calibration-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .calib-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .calib-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .calib-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .calib-card p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .calib-card .instructions {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 0.9em;
+            color: #555;
+        }
+
+        .calib-card .instructions ol {
+            margin-left: 20px;
+        }
+
+        .calib-card .instructions li {
+            margin-bottom: 8px;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        button {
+            flex: 1;
+            min-width: 120px;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .log-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .log-section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .log-controls {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        #logOutput {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 20px;
+            border-radius: 8px;
+            height: 300px;
+            overflow-y: auto;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            white-space: pre-wrap;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .status-idle {
+            background: #e9ecef;
+            color: #6c757d;
+        }
+
+        .status-running {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: bold;
+        }
+
+        .input-group input,
+        .input-group select {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+
+        .input-group input:focus,
+        .input-group select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎮 VR Tracker - Centro de Calibração</h1>
+            <p>Todas as ferramentas de calibração em um só lugar</p>
+        </div>
+
+        <div class="calibration-grid">
+            <!-- CALIBRAÇÃO 1: STRIDE LENGTH -->
+            <div class="calib-card">
+                <span class="status-badge status-idle" id="status-stride">⚪ Aguardando</span>
+                <h2>1️⃣ Calibração de Passada</h2>
+                <p><strong>Stride Length (Walking-in-Place)</strong></p>
+
+                <div class="instructions">
+                    <ol>
+                        <li>Coloque o tracker na <strong>cintura</strong></li>
+                        <li>Caminhe NO LUGAR com ritmo constante</li>
+                        <li>Mantenha por ~5 segundos</li>
+                        <li>Pressione ENTER no terminal</li>
+                        <li>Digite a velocidade desejada (m/s)</li>
+                        <li>Repita para 3-6 ritmos diferentes</li>
+                    </ol>
+                </div>
+
+                <div class="input-group">
+                    <label>Porta UDP:</label>
+                    <input type="number" id="stride-port" value="5005">
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn-primary" onclick="runStride()">▶️ Iniciar</button>
+                </div>
+            </div>
+
+            <!-- CALIBRAÇÃO 2: MULTIZONA -->
+            <div class="calib-card">
+                <span class="status-badge status-idle" id="status-multizone">⚪ Aguardando</span>
+                <h2>2️⃣ Calibração Multizona</h2>
+                <p><strong>K-means 1D (Zonas de Velocidade)</strong></p>
+
+                <div class="instructions">
+                    <ol>
+                        <li>Coloque o tracker na <strong>cintura</strong></li>
+                        <li>Caminhe com ritmos VARIADOS</li>
+                        <li>Alterne: lento → médio → rápido</li>
+                        <li>Mantenha cada ritmo por ~5 segundos</li>
+                        <li>Continue até completar as amostras</li>
+                    </ol>
+                </div>
+
+                <div class="input-group">
+                    <label>Número de Zonas (k):</label>
+                    <input type="number" id="multizone-k" value="4" min="2" max="10">
+                </div>
+
+                <div class="input-group">
+                    <label>Amostras:</label>
+                    <input type="number" id="multizone-samples" value="8" min="4" max="20">
+                </div>
+
+                <div class="input-group">
+                    <label>Velocidade Máxima (m/s):</label>
+                    <input type="number" id="multizone-speed" value="1.6" step="0.1">
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn-primary" onclick="runMultizone()">▶️ Iniciar</button>
+                </div>
+            </div>
+
+            <!-- CALIBRAÇÃO 3: COLETA MAG -->
+            <div class="calib-card">
+                <span class="status-badge status-idle" id="status-mag-collect">⚪ Aguardando</span>
+                <h2>3️⃣ Coleta Magnetômetro</h2>
+                <p><strong>Amostras para Calibração Mag</strong></p>
+
+                <div class="instructions">
+                    <ol>
+                        <li>Segure o tracker <strong>fora do corpo</strong></li>
+                        <li>GIRE LENTAMENTE em todos os eixos</li>
+                        <li>Faça movimentos de figura-8 no ar</li>
+                        <li>Cubra todas as orientações possíveis</li>
+                        <li>Continue até coletar as amostras</li>
+                    </ol>
+                </div>
+
+                <div class="input-group">
+                    <label>Número de Amostras:</label>
+                    <input type="number" id="mag-samples" value="500" min="100" max="2000">
+                </div>
+
+                <div class="input-group">
+                    <label>Porta UDP:</label>
+                    <input type="number" id="mag-port" value="5005">
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn-primary" onclick="runMagCollect()">▶️ Coletar</button>
+                </div>
+            </div>
+
+            <!-- CALIBRAÇÃO 4: PROCESSAR MAG -->
+            <div class="calib-card">
+                <span class="status-badge status-idle" id="status-mag-calib">⚪ Aguardando</span>
+                <h2>4️⃣ Calibração Magnetômetro</h2>
+                <p><strong>Ellipsoid Fit (Hard/Soft-Iron)</strong></p>
+
+                <div class="instructions">
+                    <ol>
+                        <li>Execute após coletar amostras (etapa 3)</li>
+                        <li>Processa <code>mag_samples.csv</code></li>
+                        <li>Gera <code>mag_calib.json</code></li>
+                        <li>Aplique o resultado no tracker</li>
+                    </ol>
+                </div>
+
+                <div class="input-group">
+                    <label>Arquivo de Entrada:</label>
+                    <input type="text" id="mag-input" value="mag_samples.csv">
+                </div>
+
+                <div class="input-group">
+                    <label>Arquivo de Saída:</label>
+                    <input type="text" id="mag-output" value="mag_calib.json">
+                </div>
+
+                <div class="btn-group">
+                    <button class="btn-success" onclick="runMagCalib()">🔧 Processar</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- LOG SECTION -->
+        <div class="log-section">
+            <h2>📋 Log de Execução</h2>
+            <div class="log-controls">
+                <button class="btn-secondary" onclick="clearLog()">🧹 Limpar</button>
+                <button class="btn-secondary" onclick="copyLog()">📋 Copiar</button>
+                <button class="btn-secondary" onclick="downloadLog()">⬇️ Download</button>
+            </div>
+            <div id="logOutput">Aguardando execução...</div>
+        </div>
+    </div>
+
+    <script>
+        let logContent = '';
+
+        function addLog(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const prefix = type === 'error' ? '❌' : type === 'success' ? '✅' : '📌';
+            const line = `[${timestamp}] ${prefix} ${message}\n`;
+            logContent += line;
+            document.getElementById('logOutput').textContent = logContent;
+            document.getElementById('logOutput').scrollTop = document.getElementById('logOutput').scrollHeight;
+        }
+
+        function updateStatus(id, status) {
+            const badge = document.getElementById(id);
+            badge.className = `status-badge status-${status}`;
+            const icons = {
+                idle: '⚪ Aguardando',
+                running: '🟡 Executando...',
+                success: '🟢 Concluído',
+                error: '🔴 Erro'
+            };
+            badge.textContent = icons[status] || icons.idle;
+        }
+
+        function clearLog() {
+            logContent = '';
+            document.getElementById('logOutput').textContent = 'Log limpo.';
+        }
+
+        function copyLog() {
+            navigator.clipboard.writeText(logContent);
+            addLog('Log copiado para área de transferência!', 'success');
+        }
+
+        function downloadLog() {
+            const blob = new Blob([logContent], { type: 'text/plain' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `calibration_log_${Date.now()}.txt`;
+            a.click();
+            URL.revokeObjectURL(url);
+            addLog('Log baixado!', 'success');
+        }
+
+        async function executeScript(script, args = [], statusId) {
+            updateStatus(statusId, 'running');
+            addLog(`Iniciando: ${script} ${args.join(' ')}`);
+
+            try {
+                const response = await fetch('/api/execute', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ script, args })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    updateStatus(statusId, 'success');
+                    addLog(`✅ ${script} concluído com sucesso!`, 'success');
+                    if (result.output) addLog(result.output);
+                } else {
+                    updateStatus(statusId, 'error');
+                    addLog(`❌ Erro em ${script}: ${result.error}`, 'error');
+                    if (result.stderr) addLog(result.stderr, 'error');
+                }
+            } catch (error) {
+                updateStatus(statusId, 'error');
+                addLog(`❌ Falha na chamada: ${error}`, 'error');
+            }
+        }
+
+function runStride() {
+    const port = document.getElementById('stride-port').value;
+    const duration = 8; // segundos por coleta
+    const speeds = '0.6,1.0,1.4'; // velocidades alvo
+
+    executeScript('calibrate_stride_auto.py', [
+        '--listen', `0.0.0.0:${port}`,
+        '--out-config', 'tracker_cfg.json',
+        '--duration', duration.toString(),
+        '--speeds', speeds
+    ], 'status-stride');
+}
+
+        function runMultizone() {
+            const k = document.getElementById('multizone-k').value;
+            const samples = document.getElementById('multizone-samples').value;
+            const speed = document.getElementById('multizone-speed').value;
+            executeScript('calibrate_multizone.py', [
+                '--k', k,
+                '--samples', samples,
+                '--max-speed', speed
+            ], 'status-multizone');
+        }
+
+        function runMagCollect() {
+            const samples = document.getElementById('mag-samples').value;
+            const port = document.getElementById('mag-port').value;
+            executeScript('collect_mag_udp.py', [
+                '--samples', samples,
+                '--port', port
+            ], 'status-mag-collect');
+        }
+
+        function runMagCalib() {
+            const input = document.getElementById('mag-input').value;
+            const output = document.getElementById('mag-output').value;
+            executeScript('mag_calib.py', [
+                '--in', input,
+                '--out', output
+            ], 'status-mag-calib');
+        }
+
+        // Log inicial
+        addLog('🎮 Centro de Calibração VR Tracker iniciado!');
+        addLog('Certifique-se de que tracker_web_server.py está rodando.');
+    </script>
+</body>
+</html>

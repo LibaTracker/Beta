@@ -1,0 +1,30 @@
+{
+  "name": "Default",
+  "date": "2025-11-30 12:37:53",
+  "stride_length": 0.9339,
+  "zones": [
+    {
+      "speed": 0.6,
+      "stride": 0.8688
+    },
+    {
+      "speed": 1,
+      "stride": 0.8632
+    },
+    {
+      "speed": 1.4,
+      "stride": 0.9599
+    },
+    {
+      "speed": 1.8,
+      "stride": 1.0436
+    }
+  ],
+  "thresholds": {
+    "walk": 15,
+    "turn": 50,
+    "accel_filter": 12,
+    "gyro_filter": 45
+  },
+  "active": true
+}

@@ -1,0 +1,14 @@
+﻿{
+    "alwaysActivate": true,
+    "name": "libatracker",
+    "directory": "libatracker",
+    "resourceOnly": false,
+    "hmd_presence": [],
+    "modules": [
+        {
+            "name": "libatracker_server",
+            "interface": "IServerTrackedDeviceProvider",
+            "bin_path_win64": "bin/win64/driver_libatracker.dll"
+        }
+    ]
+}
